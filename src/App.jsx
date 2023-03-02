@@ -3,7 +3,7 @@ import './index.css';
 import TodoList from './components/TodoList.jsx';
 import InputField from './components/InputField.jsx';
 import { useDispatch } from 'react-redux';
-import { addTodo } from './store/TodoSlice';
+import { addTodo } from './store/todoSlice';
 
 export default function App() {
   const [text, setText] = useState('');
